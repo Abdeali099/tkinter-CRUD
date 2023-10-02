@@ -276,7 +276,7 @@ btn_search_by_hostname.grid(row=0, column=2)
 clear_search_query = Button(frame_search, text='Clear', width=12, command=clear_queries)
 clear_search_query.grid(row=0, column=3, padx=15)
 
-# --> Search by Host Name
+# --> Search by Query
 
 lbl_search_by_query = Label(frame_search, text='Search by Query', font=('Fira Code', 12, 'bold'), pady=20)
 lbl_search_by_query.grid(row=1, column=0, sticky=W, padx=10)
@@ -331,7 +331,7 @@ label_flash.grid(row=2, column=2, sticky=E)
 entry_flash = Entry(frame_fields)
 entry_flash.grid(row=2, column=3, sticky=W, padx=15)
 
-# ----- Frame 3 :  Available router frame  ----- #
+# ----- Frame 3 :  CRUD Operation Buttons  ----- #
 
 frame_crud_btns = Frame(main_window)
 frame_crud_btns.grid(row=3, column=0)
